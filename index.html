@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+	<meta charset="UTF-8">
+	<title>Pokemon</title>
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+
+	<iframe width="10px" height="10px" src="https://www.youtube.com/embed/RMWlTF-56oE?&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+			picture-in-picture"></iframe>
+	<audio src="assets/sound/correct.wav" id="correct"></audio>
+	<audio src="assets/sound/error.wav" id="error"></audio>
+
+	<img class="whosthat" src="assets/images/whosthat.png" alt="">
+	<img class="who" src="assets/images/who.jpg" alt="">
+
+
+	<div id="word-display">
+		<p id="word-display-letters"></p>
+	</div>
+
+	<div id="game-div" class="panel">
+
+		<div id="general-display">
+
+			<pre><p><span id="guessed-letters"></span></p></pre>
+
+			<p>Captured: <span id="win-count"></span></p>
+			<p>Ran Away: <span id="loss-count"></span></p>
+			<p>Not Very Effective: <span id="error-count"></span></p>
+
+		</div>
+	</div>
+	</div>
+	<div class="instruction">
+		<p class="tittle">Press any key to begin</p>
+
+
+		<script type="text/javascript" src="./assets/javascript/game.js"></script>
+</body>
+
+</html>

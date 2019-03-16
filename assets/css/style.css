@@ -1,0 +1,57 @@
+
+body {
+	font-family: "Courier New", Courier, monospace;
+	color: rgb(55, 56, 58);
+	width:80%;
+	height: 80%;
+	background: url("../images/background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#word-display {
+	text-align: center;
+	color: rgb(141, 1, 1); 
+	font-size: 40px;
+	float: right;
+	margin: 80px -50px 0px 0px;
+	
+}
+#guessed-letters {
+	margin-left:220px;
+	color: rgb(18, 6, 53);
+}
+.panel {
+	font-size: 25px;
+	border: solid rgb(100, 100, 100) 7px;
+	width: 750px;
+	background:rgb(241, 239, 239);
+	float:right;
+	margin-top: 285px;
+	margin-right: -300px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	
+}
+.who {
+	width: 30%;
+	height: auto;
+	position: absolute;
+	margin: 205px 0px 0px 300px;
+}
+.whosthat {
+	width: 615px;
+	height: 205px;
+	margin: 70px 0px 0px 30px;
+	border: solid rgb(97, 96, 96) 7px;
+}
+.instruction {
+	text-align:center;
+	font-size: 25px;
+	margin-top: 20px;
+	color: rgb(131, 20, 20);
+	font-weight: bold;
+
+}
